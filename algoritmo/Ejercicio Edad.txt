@@ -1,0 +1,288 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+142
+'Programa Para Calcular la EDAD Nivel Facil : ingrese solo el Año, Nivel Medio: ingresear Año y Mes, Nivel Complejo Ingrese el Año, mes y día'
+5
+1
+6
+opcion
+7
+0
+1
+8
+opcion=1
+7
+0
+1
+25
+(opcion= 0) or (opcion>3)
+7
+0
+1
+8
+opcion=2
+4
+1
+23
+'Ingrese el año actual'
+5
+1
+9
+añoactual
+4
+1
+23
+'Ingrese el mes actual'
+5
+1
+9
+mesactual
+7
+0
+1
+30
+(mesactual<1)or(mesactual>=13)
+13
+4
+1
+71
+'Solo Se permiten numeros del 1 al 12 equivalentes a los meses del año'
+5
+1
+9
+mesactual
+13
+4
+1
+23
+'ingrese el dia actual'
+5
+1
+8
+diactual
+7
+0
+1
+30
+(diactual<1) or (diactual>=32)
+13
+4
+1
+79
+'Solo se permiten numeros del 1 al 31 equivalentes al numero de dias de un mes'
+5
+1
+8
+diactual
+13
+4
+1
+30
+'ingrese su año de Nacimiento'
+5
+1
+13
+añonacimiento
+4
+1
+30
+'Ingrese Su Mes de Nacimiento'
+5
+1
+13
+mesnacimiento
+7
+0
+1
+40
+(mesnacimiento<1) or (mesnacimiento>=13)
+13
+4
+1
+71
+'Solo se permiten Numeros del 1 al 12 equivalentes a los meses del año'
+5
+1
+13
+mesnacimiento
+13
+4
+1
+30
+'ingrese su dia de nacimiento'
+5
+1
+13
+dianacimiento
+7
+0
+1
+40
+(dianacimiento<1) or (dianacimiento>=32)
+13
+4
+1
+132
+'Solo se permiten numeros del 1 al 31 corerspondientes al número de dias que tiene un mes favor ingresar nuevamente un valor valido'
+5
+1
+13
+dianacimiento
+13
+7
+0
+1
+23
+mesactual>mesnacimiento
+7
+0
+1
+22
+diactual>dianacimiento
+7
+0
+1
+21
+diactua=dianacimiento
+6
+1
+4
+edad
+25
+añoactual-añonacimiento-1
+4
+1
+20
+'Su edad es:',(edad)
+13
+6
+1
+4
+edad
+23
+añoactual-añonacimiento
+4
+1
+37
+'Feliz Cumpleaños Su edad es:',(edad)
+13
+13
+4
+1
+20
+'Su edad es:',(edad)
+13
+13
+6
+1
+4
+edad
+23
+añoactual-añonacimiento
+4
+1
+20
+'Su edad es:',(edad)
+13
+13
+4
+1
+23
+'Ingrese el Año Actual'
+5
+1
+9
+Añoactual
+4
+1
+23
+'Ingrese el Mes Actual'
+5
+1
+9
+Mesactual
+4
+1
+30
+'Ingrese el Año de Nacimiento'
+5
+1
+13
+Añonacimiento
+4
+1
+30
+'Ingrese el Mes de Nacimiento'
+5
+1
+13
+Mesnacimiento
+7
+0
+1
+24
+Mesactual>=Mesnacimiento
+6
+1
+4
+edad
+25
+añoactual-añonacimiento-1
+4
+1
+20
+'Su edad es:',(edad)
+13
+6
+1
+4
+edad
+23
+Añoactual-añonacimiento
+4
+1
+20
+'Su Edad es:',(edad)
+13
+13
+13
+4
+1
+37
+'Solo se Permiten Valores del 1 al 3'
+13
+13
+4
+1
+23
+'Ingrese el Año Actual'
+5
+1
+9
+añoactual
+4
+1
+27
+'ingrese año de nacimiento'
+5
+1
+13
+añonacimiento
+6
+1
+4
+edad
+23
+añoactual-añonacimiento
+4
+1
+20
+'Su Edad es:',(edad)
+13
+1
